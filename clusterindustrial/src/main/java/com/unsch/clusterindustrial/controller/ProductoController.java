@@ -3,27 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
-import com.unsch.domain.BProducto;
-import com.unsch.dto.BProductoDetalle;
-import com.unsch.domain.BUnidadMedida;
-import com.unsch.service.PersonaService;
-import com.unsch.service.ProductoService;
-import com.unsch.service.SanidadService;
-import com.unsch.service.SocioService;
-import com.unsch.service.UnidadMedidaService;
-import com.unsch.service.VariedadService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
+import com.unsch.clusterindustrial.domain.BProducto;
+import com.unsch.clusterindustrial.dto.BProductoDetalle;
+import com.unsch.clusterindustrial.domain.BUnidadMedida;
+import com.unsch.clusterindustrial.service.PersonaService;
+import com.unsch.clusterindustrial.service.ProductoService;
+import com.unsch.clusterindustrial.service.SanidadService;
+import com.unsch.clusterindustrial.service.SocioService;
+import com.unsch.clusterindustrial.service.UnidadMedidaService;
+import com.unsch.clusterindustrial.service.VariedadService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.service.VariedadCalibreService;
-import com.unsch.dto.BDetalleVariedadCalibre;
-import com.unsch.dto.BPersonaSocio;
-import com.unsch.dto.BSanidadCalibre;
-import com.unsch.dto.BVariedadAlmacen;
+import com.unsch.clusterindustrial.service.VariedadCalibreService;
+import com.unsch.clusterindustrial.dto.BDetalleVariedadCalibre;
+import com.unsch.clusterindustrial.dto.BPersonaSocio;
+import com.unsch.clusterindustrial.dto.BSanidadCalibre;
+import com.unsch.clusterindustrial.dto.BVariedadAlmacen;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;

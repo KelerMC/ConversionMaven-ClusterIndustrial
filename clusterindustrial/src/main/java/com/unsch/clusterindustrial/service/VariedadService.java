@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service;
+package com.unsch.clusterindustrial.service;
 
-import com.unsch.model.IDAOVariedad;
-import com.unsch.domain.BAlmacen;
-import com.unsch.domain.BUnidadMedida;
-import com.unsch.domain.BVariedad;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BVariedadAlmacen;
+import com.unsch.clusterindustrial.dto.BVariedadAlmacen;
+import com.unsch.clusterindustrial.domain.BAlmacen;
+import com.unsch.clusterindustrial.domain.BUnidadMedida;
+import com.unsch.clusterindustrial.domain.BVariedad;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 /**
  *

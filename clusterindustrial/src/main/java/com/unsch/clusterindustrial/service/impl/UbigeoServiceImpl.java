@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOUbigeo;
-import com.unsch.domain.BUbigeo;
-import com.unsch.service.UbigeoService;
+import com.unsch.clusterindustrial.model.IDAOUbigeo;
+import com.unsch.clusterindustrial.domain.BUbigeo;
+import com.unsch.clusterindustrial.service.UbigeoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

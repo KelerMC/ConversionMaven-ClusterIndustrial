@@ -6,11 +6,12 @@ package com.unsch.clusterindustrial.controller;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.unsch.service.AlmacenService;
-import com.unsch.service.ProductoInventarioService;
-import com.unsch.util.BArrayList;
-import com.unsch.dto.BAlmacenCluster;
-import com.unsch.dto.BDetalleCompraProducto;
+import com.unsch.clusterindustrial.dto.BAlmacenCluster;
+import com.unsch.clusterindustrial.dto.BDetalleCompraProducto;
+import com.unsch.clusterindustrial.service.AlmacenService;
+import com.unsch.clusterindustrial.service.ProductoInventarioService;
+import com.unsch.clusterindustrial.util.BArrayList;
+
 import java.util.List;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;

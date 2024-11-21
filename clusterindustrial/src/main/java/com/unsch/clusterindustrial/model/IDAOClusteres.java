@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model;
+package com.unsch.clusterindustrial.model;
 
-import com.unsch.domain.BClusteres;
-import com.unsch.domain.BUbigeo;
-import com.unsch.util.BResultadoProceso;
+import com.unsch.clusterindustrial.domain.BClusteres;
+import com.unsch.clusterindustrial.domain.BUbigeo;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
 import java.util.List;
 
 /**
@@ -18,7 +18,7 @@ import java.util.List;
 public interface IDAOClusteres {
 
     public List<BClusteres> listaClusteres();
-    public List<BUbigeo> listaUbigeo();  
+    public List<BUbigeo> listaUbigeo();
     public BResultadoProceso RegistrarCluster(BClusteres bClusteres);
     public BResultadoProceso UpdateCluster(BClusteres bClusteres);
     public BResultadoProceso DeleteCluster(BClusteres bClusteres);

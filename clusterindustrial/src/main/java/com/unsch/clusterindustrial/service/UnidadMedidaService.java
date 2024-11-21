@@ -3,13 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service;
+package com.unsch.clusterindustrial.service;
 
-import com.unsch.model.IDAOUnidadMedida;
-import com.unsch.domain.BUnidadMedida;
+import com.unsch.clusterindustrial.domain.BUnidadMedida;
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 /**
  *

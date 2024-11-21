@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOVariedadCalibre;
-import com.unsch.domain.BVariedadCalibre;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BDetalleVariedadCalibre;
-import com.unsch.service.VariedadCalibreService;
+import com.unsch.clusterindustrial.dto.BDetalleVariedadCalibre;
+import com.unsch.clusterindustrial.model.IDAOVariedadCalibre;
+import com.unsch.clusterindustrial.domain.BVariedadCalibre;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.VariedadCalibreService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

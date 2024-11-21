@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOSanidad;
-import com.unsch.domain.BSanidad;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BSanidadCalibre;
-import com.unsch.service.SanidadService;
+import com.unsch.clusterindustrial.dto.BSanidadCalibre;
+import com.unsch.clusterindustrial.model.IDAOSanidad;
+import com.unsch.clusterindustrial.domain.BSanidad;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.SanidadService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

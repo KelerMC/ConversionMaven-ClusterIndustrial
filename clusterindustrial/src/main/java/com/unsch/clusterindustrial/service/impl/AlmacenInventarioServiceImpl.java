@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOAlmacenInventario;
-import com.unsch.dto.BAlmacenInventario;
-import com.unsch.service.AlmacenInventarioService;
+import com.unsch.clusterindustrial.dto.BAlmacenInventario;
+import com.unsch.clusterindustrial.model.IDAOAlmacenInventario;
+import com.unsch.clusterindustrial.service.AlmacenInventarioService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

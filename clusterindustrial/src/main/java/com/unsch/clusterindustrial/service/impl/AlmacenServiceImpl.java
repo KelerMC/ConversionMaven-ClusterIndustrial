@@ -2,15 +2,15 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOAlmacen;
-import com.unsch.domain.BAlmacen;
-import com.unsch.domain.BClusteres;
-import com.unsch.util.BArrayList;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BAlmacenCluster;
-import com.unsch.service.AlmacenService;
+import com.unsch.clusterindustrial.dto.BAlmacenCluster;
+import com.unsch.clusterindustrial.model.IDAOAlmacen;
+import com.unsch.clusterindustrial.domain.BAlmacen;
+import com.unsch.clusterindustrial.domain.BClusteres;
+import com.unsch.clusterindustrial.util.BArrayList;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.AlmacenService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

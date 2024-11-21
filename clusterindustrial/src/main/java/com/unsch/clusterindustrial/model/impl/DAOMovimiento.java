@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model.impl;
+package com.unsch.clusterindustrial.model.impl;
 
-import com.unsch.model.IDAOMovimiento;
-import com.unsch.domain.BMovimiento;
-import com.unsch.util.BResultadoProceso;
+import com.unsch.clusterindustrial.domain.BMovimiento;
+import com.unsch.clusterindustrial.model.IDAOMovimiento;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import javax.sql.DataSource;

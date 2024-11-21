@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
-import com.unsch.domain.BOperacion;
-import com.unsch.service.OperacionService;
-import com.unsch.util.BArrayList;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
+import com.unsch.clusterindustrial.domain.BOperacion;
+import com.unsch.clusterindustrial.service.OperacionService;
+import com.unsch.clusterindustrial.util.BArrayList;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.IOException;

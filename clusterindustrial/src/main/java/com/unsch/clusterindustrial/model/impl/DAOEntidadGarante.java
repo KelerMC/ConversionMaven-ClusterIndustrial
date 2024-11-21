@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model.impl;
+package com.unsch.clusterindustrial.model.impl;
 
-import com.unsch.model.IDAOEntidadGarante;
-import com.unsch.domain.BEntidadGarante;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BDetalleEntidadGarante;
+import com.unsch.clusterindustrial.domain.BEntidadGarante;
+import com.unsch.clusterindustrial.dto.BDetalleEntidadGarante;
+import com.unsch.clusterindustrial.model.IDAOEntidadGarante;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;

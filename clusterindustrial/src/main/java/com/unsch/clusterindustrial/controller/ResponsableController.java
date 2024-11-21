@@ -2,20 +2,21 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.domain.BClusteres;
-import com.unsch.domain.BResponsable;
-import com.unsch.service.ClusteresService;
-import com.unsch.service.ResponsableService;
-import com.unsch.service.SocioService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
-import com.unsch.dto.BPersonaSocio;
-import com.unsch.dto.BResponsableSocioCluster;
+import com.unsch.clusterindustrial.dto.BPersonaSocio;
+import com.unsch.clusterindustrial.dto.BResponsableSocioCluster;
+import com.unsch.clusterindustrial.domain.BClusteres;
+import com.unsch.clusterindustrial.domain.BResponsable;
+import com.unsch.clusterindustrial.service.ClusteresService;
+import com.unsch.clusterindustrial.service.ResponsableService;
+import com.unsch.clusterindustrial.service.SocioService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

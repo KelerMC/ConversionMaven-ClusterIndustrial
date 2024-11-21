@@ -3,19 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.domain.BClusteres;
-import com.unsch.domain.BSugerencia;
-import com.unsch.service.ClusteresService;
-import com.unsch.service.SugerenciaService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
-import com.unsch.dto.BAlmacenCluster;
-import com.unsch.dto.BDetalleSugerencia;
+import com.unsch.clusterindustrial.dto.BDetalleSugerencia;
+import com.unsch.clusterindustrial.domain.BClusteres;
+import com.unsch.clusterindustrial.domain.BSugerencia;
+import com.unsch.clusterindustrial.service.ClusteresService;
+import com.unsch.clusterindustrial.service.SugerenciaService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
+
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import net.sf.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;

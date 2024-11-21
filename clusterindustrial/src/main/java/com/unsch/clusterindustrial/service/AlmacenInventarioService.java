@@ -2,9 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service;
+package com.unsch.clusterindustrial.service;
 
-import com.unsch.dto.BAlmacenInventario;
+import com.unsch.clusterindustrial.dto.BAlmacenInventario;
+
 import java.util.List;
 
 /**

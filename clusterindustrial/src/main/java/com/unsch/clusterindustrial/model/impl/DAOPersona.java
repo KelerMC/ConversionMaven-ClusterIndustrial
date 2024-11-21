@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model.impl;
+package com.unsch.clusterindustrial.model.impl;
 
-import com.unsch.model.IDAOPersona;
-import com.unsch.domain.BPersona;
+import com.unsch.clusterindustrial.domain.BPersona;
+import com.unsch.clusterindustrial.model.IDAOPersona;
+
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

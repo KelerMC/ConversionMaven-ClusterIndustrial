@@ -5,9 +5,10 @@
 package com.unsch.clusterindustrial.controller;
 
 import javax.servlet.http.HttpServletRequest;
-import com.unsch.dto.BAlmacenInventario;
-import com.unsch.service.AlmacenInventarioService;
-import com.unsch.util.EstrategiaExclusion;
+
+import com.unsch.clusterindustrial.dto.BAlmacenInventario;
+import com.unsch.clusterindustrial.service.AlmacenInventarioService;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.util.HashMap;

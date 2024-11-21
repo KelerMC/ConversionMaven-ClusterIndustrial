@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOOrdenCompra;
-import com.unsch.domain.BOrdenCompra;
-import com.unsch.util.BArrayList;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BDetalleOrdenCompra;
-import com.unsch.dto.BSubDetalleOrdenCompra;
-import com.unsch.service.OrdenCompraService;
+import com.unsch.clusterindustrial.dto.BDetalleOrdenCompra;
+import com.unsch.clusterindustrial.dto.BSubDetalleOrdenCompra;
+import com.unsch.clusterindustrial.model.IDAOOrdenCompra;
+import com.unsch.clusterindustrial.domain.BOrdenCompra;
+import com.unsch.clusterindustrial.util.BArrayList;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.OrdenCompraService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

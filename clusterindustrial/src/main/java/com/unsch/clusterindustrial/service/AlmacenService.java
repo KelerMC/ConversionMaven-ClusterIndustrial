@@ -2,13 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service;
+package com.unsch.clusterindustrial.service;
 
-import com.unsch.domain.BAlmacen;
-import com.unsch.domain.BClusteres;
-import com.unsch.util.BArrayList;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BAlmacenCluster;
+import com.unsch.clusterindustrial.dto.BAlmacenCluster;
+import com.unsch.clusterindustrial.domain.BAlmacen;
+import com.unsch.clusterindustrial.domain.BClusteres;
+import com.unsch.clusterindustrial.util.BArrayList;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+
 import java.util.List;
 
 /**

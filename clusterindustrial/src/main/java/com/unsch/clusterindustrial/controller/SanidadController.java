@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.domain.BCalibres;
-import com.unsch.domain.BSanidad;
-import com.unsch.service.CalibresService;
-import com.unsch.service.SanidadService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
-import com.unsch.dto.BSanidadCalibre;
+import com.unsch.clusterindustrial.dto.BSanidadCalibre;
+import com.unsch.clusterindustrial.domain.BCalibres;
+import com.unsch.clusterindustrial.domain.BSanidad;
+import com.unsch.clusterindustrial.service.CalibresService;
+import com.unsch.clusterindustrial.service.SanidadService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
+
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;

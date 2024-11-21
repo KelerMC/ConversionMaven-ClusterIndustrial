@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOResponsable;
-import com.unsch.domain.BResponsable;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BResponsableSocioCluster;
-import com.unsch.service.ResponsableService;
+import com.unsch.clusterindustrial.dto.BResponsableSocioCluster;
+import com.unsch.clusterindustrial.model.IDAOResponsable;
+import com.unsch.clusterindustrial.domain.BResponsable;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.ResponsableService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

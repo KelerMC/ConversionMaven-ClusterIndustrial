@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model.impl;
+package com.unsch.clusterindustrial.model.impl;
 
-import com.unsch.model.IDAOValorTabla;
-import com.unsch.domain.BValorTabla;
+import com.unsch.clusterindustrial.domain.BValorTabla;
+import com.unsch.clusterindustrial.model.IDAOValorTabla;
+
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

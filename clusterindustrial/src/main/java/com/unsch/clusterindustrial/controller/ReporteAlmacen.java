@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
 import java.util.HashMap;
 import java.util.Map;

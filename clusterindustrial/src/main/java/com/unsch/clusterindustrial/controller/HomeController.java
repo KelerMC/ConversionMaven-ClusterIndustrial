@@ -2,21 +2,20 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
-import com.unsch.domain.BCliente;
-import com.unsch.domain.BUsuario;
-import com.unsch.service.ClienteService;
-import com.unsch.service.UsuarioService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.StringF;
+import com.unsch.clusterindustrial.domain.BCliente;
+import com.unsch.clusterindustrial.domain.BUsuario;
+import com.unsch.clusterindustrial.service.ClienteService;
+import com.unsch.clusterindustrial.service.UsuarioService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.StringF;
 import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

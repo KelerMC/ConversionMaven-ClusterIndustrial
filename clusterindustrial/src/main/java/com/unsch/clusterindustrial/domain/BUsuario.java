@@ -1,4 +1,4 @@
-package com.unsch.domain;
+package com.unsch.clusterindustrial.domain;
 
 public class BUsuario {
 

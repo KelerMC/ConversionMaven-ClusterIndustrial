@@ -5,15 +5,16 @@
  */
 package com.unsch.clusterindustrial.controller;
 
-import com.unsch.domain.BCalibres;
-import com.unsch.service.CalibresService;
-import com.unsch.service.VariedadService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
+import com.unsch.clusterindustrial.dto.BVariedadAlmacen;
+import com.unsch.clusterindustrial.domain.BCalibres;
+import com.unsch.clusterindustrial.service.CalibresService;
+import com.unsch.clusterindustrial.service.VariedadService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.dto.BVariedadAlmacen;
+
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;

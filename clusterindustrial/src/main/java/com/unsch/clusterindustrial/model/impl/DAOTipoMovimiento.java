@@ -2,10 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model.impl;
+package com.unsch.clusterindustrial.model.impl;
 
-import com.unsch.model.IDAOTipoMovimiento;
-import com.unsch.domain.BTipoMovimiento;
+import com.unsch.clusterindustrial.domain.BTipoMovimiento;
+import com.unsch.clusterindustrial.model.IDAOTipoMovimiento;
+
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

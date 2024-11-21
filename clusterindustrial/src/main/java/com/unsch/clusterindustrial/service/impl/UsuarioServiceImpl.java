@@ -1,10 +1,10 @@
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOUsuario;
-import com.unsch.domain.BUsuario;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BDetalleUsuario;
-import com.unsch.service.UsuarioService;
+import com.unsch.clusterindustrial.dto.BDetalleUsuario;
+import com.unsch.clusterindustrial.model.IDAOUsuario;
+import com.unsch.clusterindustrial.domain.BUsuario;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.UsuarioService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

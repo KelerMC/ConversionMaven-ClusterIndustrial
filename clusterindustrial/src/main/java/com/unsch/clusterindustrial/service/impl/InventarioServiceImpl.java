@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOInventario;
-import com.unsch.domain.BInventario;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.dto.BDetalleInventario;
-import com.unsch.service.InventarioService;
+import com.unsch.clusterindustrial.dto.BDetalleInventario;
+import com.unsch.clusterindustrial.model.IDAOInventario;
+import com.unsch.clusterindustrial.domain.BInventario;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.service.InventarioService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

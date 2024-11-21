@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAONacionalidad;
-import com.unsch.domain.BNacionalidad;
-import com.unsch.service.NacionalidadService;
+import com.unsch.clusterindustrial.model.IDAONacionalidad;
+import com.unsch.clusterindustrial.domain.BNacionalidad;
+import com.unsch.clusterindustrial.service.NacionalidadService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

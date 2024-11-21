@@ -1,4 +1,4 @@
-package com.unsch.util;
+package com.unsch.clusterindustrial.util;
 
 public class JsonResponse {
 

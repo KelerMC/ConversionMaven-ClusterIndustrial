@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.service.impl;
+package com.unsch.clusterindustrial.service.impl;
 
-import com.unsch.model.IDAOTipoEnvio;
-import com.unsch.domain.BTipoEnvio;
-import com.unsch.service.TipoEnvioService;
+import com.unsch.clusterindustrial.model.IDAOTipoEnvio;
+import com.unsch.clusterindustrial.domain.BTipoEnvio;
+import com.unsch.clusterindustrial.service.TipoEnvioService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.service.VariedadDemandaService;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.dto.BDetalleVariedad;
+import com.unsch.clusterindustrial.dto.BDetalleVariedad;
+import com.unsch.clusterindustrial.service.VariedadDemandaService;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;

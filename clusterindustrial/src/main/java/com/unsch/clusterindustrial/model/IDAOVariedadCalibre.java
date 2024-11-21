@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model;
+package com.unsch.clusterindustrial.model;
 
-import com.unsch.domain.BVariedadCalibre;
-import com.unsch.util.BResultadoProceso;
+import com.unsch.clusterindustrial.domain.BVariedadCalibre;
+import com.unsch.clusterindustrial.dto.BDetalleVariedadCalibre;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
 import java.util.List;
-import com.unsch.dto.BDetalleVariedadCalibre;
 
 /**
  *

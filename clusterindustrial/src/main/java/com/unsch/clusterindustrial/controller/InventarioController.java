@@ -3,28 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.controller;
+package com.unsch.clusterindustrial.controller;
 
-import com.unsch.domain.BAlmacen;
-import com.unsch.domain.BInventario;
-import com.unsch.dto.BProductoDetalle;
-import com.unsch.domain.BTipoDocumento;
-import com.unsch.domain.BTipoMovimiento;
-import com.unsch.domain.BUnidadMedida;
-import com.unsch.service.AlmacenService;
-import com.unsch.service.InventarioService;
-import com.unsch.service.ProductoService;
-import com.unsch.service.TipoDocumentoService;
-import com.unsch.service.TipoMovimientoService;
-import com.unsch.service.UnidadMedidaService;
-import com.unsch.util.BArrayList;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
+import com.unsch.clusterindustrial.dto.BAlmacenCluster;
+import com.unsch.clusterindustrial.dto.BDetalleInventario;
+import com.unsch.clusterindustrial.dto.BProductoDetalle;
+import com.unsch.clusterindustrial.domain.BAlmacen;
+import com.unsch.clusterindustrial.domain.BInventario;
+import com.unsch.clusterindustrial.domain.BTipoDocumento;
+import com.unsch.clusterindustrial.domain.BTipoMovimiento;
+import com.unsch.clusterindustrial.domain.BUnidadMedida;
+import com.unsch.clusterindustrial.service.AlmacenService;
+import com.unsch.clusterindustrial.service.InventarioService;
+import com.unsch.clusterindustrial.service.ProductoService;
+import com.unsch.clusterindustrial.service.TipoDocumentoService;
+import com.unsch.clusterindustrial.service.TipoMovimientoService;
+import com.unsch.clusterindustrial.service.UnidadMedidaService;
+import com.unsch.clusterindustrial.util.BArrayList;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.dto.BAlmacenCluster;
-import com.unsch.dto.BDetalleInventario;
+
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;

@@ -39,7 +39,7 @@
     
  
     
-    <bean id="reportEvaluacionPdf" class="com.unsch.controller.ReporteAlmacen">
+    <bean id="reportEvaluacionPdf" class="com.unsch.clusterindustrial.controller.ReporteAlmacen">
     </bean>
     
     

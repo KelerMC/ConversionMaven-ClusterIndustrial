@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model.impl;
+package com.unsch.clusterindustrial.model.impl;
 
-import com.unsch.model.IDAOProductoInventario;
-import com.unsch.util.BArrayList;
-import com.unsch.dto.BDetalleCompraProducto;
+import com.unsch.clusterindustrial.dto.BDetalleCompraProducto;
+import com.unsch.clusterindustrial.model.IDAOProductoInventario;
+import com.unsch.clusterindustrial.util.BArrayList;
+
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

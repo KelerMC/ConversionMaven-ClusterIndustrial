@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.unsch.model;
+package com.unsch.clusterindustrial.model;
 
-import com.unsch.domain.BOperacion;
-import com.unsch.util.BArrayList;
-import com.unsch.util.BResultadoProceso;
+import com.unsch.clusterindustrial.domain.BOperacion;
+import com.unsch.clusterindustrial.util.BArrayList;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
 import java.util.List;
 
 /**

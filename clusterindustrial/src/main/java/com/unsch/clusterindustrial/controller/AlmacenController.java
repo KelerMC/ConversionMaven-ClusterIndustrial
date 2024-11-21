@@ -4,17 +4,17 @@
  */
 package com.unsch.clusterindustrial.controller;
 
-import com.google.gson.JsonArray;
-import com.unsch.domain.BAlmacen;
-import com.unsch.domain.BClusteres;
-import com.unsch.service.AlmacenService;
-import com.unsch.service.ClusteresService;
-import com.unsch.util.BResultadoProceso;
-import com.unsch.util.EstrategiaExclusion;
-import com.unsch.util.StringF;
+import com.unsch.clusterindustrial.dto.BAlmacenCluster;
+import com.unsch.clusterindustrial.domain.BAlmacen;
+import com.unsch.clusterindustrial.domain.BClusteres;
+import com.unsch.clusterindustrial.service.AlmacenService;
+import com.unsch.clusterindustrial.service.ClusteresService;
+import com.unsch.clusterindustrial.util.BResultadoProceso;
+import com.unsch.clusterindustrial.util.EstrategiaExclusion;
+import com.unsch.clusterindustrial.util.StringF;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.unsch.dto.BAlmacenCluster;
+
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
