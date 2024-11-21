@@ -55,7 +55,7 @@ public class AlmacenController {
         try {
             List<BAlmacenCluster> list = this.serviceAlmacen.listaAlmacen();
             System.out.println("tamanio de los datos: " + list.size());
-            JsonArray jsonArray = new JSONArray();
+            JSONArray jsonArray = new JSONArray();
             for (BAlmacenCluster harbour : list) {
                 JSONArray array = new JSONArray();
                 array.put(harbour.getAlmacenid());

@@ -120,8 +120,12 @@
 			<scope>provided</scope>
 		</dependency>
 
-
-
+		<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>0.9</version>
+		</dependency>
 
 
 	</dependencies>
