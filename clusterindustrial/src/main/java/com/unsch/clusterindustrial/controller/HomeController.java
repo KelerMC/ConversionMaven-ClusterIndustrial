@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,8 +26,8 @@ import org.springframework.web.servlet.ModelAndView;
  *
  * @author ARANGO
  */
-@RestController
-@RequestMapping("index.htm")
+@Controller
+@RequestMapping("/home")
 public class HomeController {
 
     public HttpSession session;
@@ -34,6 +35,15 @@ public class HomeController {
     private UsuarioService serviceUsuario;
     @Autowired
     private ClienteService serviceCliente;
+
+
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    public String index() {
+        System.out.println("Redirigiendo al JSP index...");
+        return "index"; // Sin necesidad de incluir "/WEB-INF/views/"
+    }
+
+
 
     @RequestMapping(method = RequestMethod.GET)
     public ModelAndView home(HttpServletRequest request) {
